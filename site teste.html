@@ -1,0 +1,189 @@
+</DOCTYPE html>
+<html>  
+    <head>
+        <title>Site </title>
+        <meta name="description" content="este é apenas um site teste">
+        <link rel="stylesheet" href="style.css">
+    </head>  
+    <body>
+        <header>
+            <h1>Site Teste</h1>
+            <p>Site Teste para aprender o básico de <abbr title="HyperText Markup Language">HTML</abbr> e 
+            <abbr title="Cascading Style Sheets">CSS</abbr></p>
+        </header>
+
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Conteúdo Principal</h2>
+                <p>Este é o <strong>conteúdo principal</strong> do site de teste.</p>
+                <p>Este é o <em>conteúdo principal</em> do site de teste <br>(dois)</p>
+                <p>Este é o <i>conteúdo principal</i> do site de teste <br>(três)</p>
+            </section>
+            <!--Desenvolvimento-->
+            <section>
+                <h2>Desenvolvimento</h2>
+                <p>Está gostando do site teste?</p>
+                <form>
+                    <input type = "radio" name = "opcao1" id="p1a" value = "sim"> Sim<br>
+                    <label for="p1a"></label>
+                    <input type = "radio" name = "opcao2" id="p2b" value = "nao"> Não<br>
+                    <label for="p1b"></label>
+                    <input type = "radio" name = "opcao3" id="p3c" value = "talvez"> Talvez<br>
+                    <label for="p1c"></label>
+                    <input type = "submit" value = "Enviar Resposta">
+                </form>
+            </section>
+            <!--Desenvolvimento 2-->
+            <section>
+                <h2>Segundo Desenvolvimento</h2>
+                <p>Continuando, está achando legal o site teste? Justifique</p>
+                <form>
+                    <input type = "text" id = p2 placeholder="Digite sua resposta...">
+                </form>
+            </section>
+            <!--Desenvolvimento 3-->
+            <section>
+                <h2>Terceiro Desenvolvimento</h2>
+                <p>Por fim, coloque aqui aonde você mora e aonde guarda seus bens de valor (sua senha)</p>
+                <form>
+                    <input type = "password" id = p3 name="pergunta3" placeholder = "Digite aqui...">
+                </form>
+            </section>
+            <!--Desenvolvimento 4-->
+            <section>
+                <h2>Quarto Desenvolvimento</h2>
+                <p>Agora coloque a data em que nasceu.</p>
+                <form>
+                    <input type = "date" id = p4 name = pergunta4>
+                </form>
+            </section>
+            <!--Desenvolvimento 5-->
+            <section>
+                <h2>Quinto Desenvolvimento</h2>
+                <p>Agora diga se o site tem potencial para ser um dos melhores testes da interwebs.
+                    <form>
+                        <input type = "checkbox" id = p5a name = pergunta5a value = "tem potencial">
+                        <label for="p5a"> Tem potencial</label><br>
+                        <input type = "checkbox" id = p5b name = pergunta5b value = "não tem potencial">
+                        <label for="p5b"> Não tem potencial</label><br>
+                    </form>
+                </p>
+            </section>
+            <!--Desenvolvimento 6-->
+            <section>
+                <h2>Sexto Desenvolvimento</h2>
+                <p>Faça o uploud do arquivo da sua conta bancária</p>
+                <form>
+                    <input type = "file" id = "p6" name = "pergunta6">
+                </form>
+            </section>
+            <!--Desenvolvimento 7-->
+            <section>
+                <h2>Sétimo Desenvolvimento</h2>
+                <p>Selecione qual você acha a palavra mais bonita</p>
+                <form>
+                    <select name = "setimo" id = "p7">
+                        <option value = "interwebs">Interwebs</option>
+                        <option value = "java">Java</option>
+                        <option value = "bedrock">Bedrock</option>
+                    </select>
+                </form>
+            </section>
+            <!--Conclusão-->
+            <section>
+                <h2>Conclusão</h2>
+                <p>Qual dessas cores você acha mais legal?</p>
+            <figure>       
+                <img src = "images.png" 
+                alt="Imagem de quadro com fundo vermelho"><br><br>
+                <figurecaption>Opção 1 : Vermelho</figurecaption><br><br>
+                <figurecaption>Opção 2 : Preto</figurecaption>
+            </figure>
+            <br>
+            <br>
+            <input type = "text" id = p8 name = pergunta8 placeholder="Digite aqui">
+            </section>
+            <!--Tabela Ensinamento-->
+            <section>
+                <h2>Tabela</h2>
+                <table border="3">
+                    <thead>
+                        <tr>
+                            <th> Notas Teste</th>
+                            <th> Avaliação Teste</th>
+                        </tr>
+                        
+                    </thead>
+                    <tbody>
+                <tr>
+                    <td>0-2</td>
+                    <td>horrível</td>
+                </tr>
+                <tr>
+                     <td>2-4</td>
+                    <td>ruim ainda</td>
+                </tr>
+                <tr>
+                        <td>4-6</td>
+                        <td>mediano</td>
+                </tr>
+                <tr>
+                        <td>6-8</td>
+                        <td>bom</td>
+                </tr>
+                <tr>
+                        <td>8-10</td>
+                        <td>ótimo</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan = "2">Tabela Concluida!</td>
+            </tfoot>
+                </table>
+            </section>
+            <!--Lista Ensinamento-->
+            <section>
+                <h2>Lista</h2>
+                <details>
+                    <summary>Aperte aqui</summary>
+                <ol>
+                    <li><abbr title = "HyperText Markup Language">HTML</abbr></li><br>
+                    <li><abbr title = "Cascading Style Sheets">CSS</abbr></li><br>
+                    <li><abbr title = "JavaScript">JS</abbr></li>
+                </ol>
+                </details>
+            </section>
+            <!--Botão(Formulário de Feedback)-->
+            <section>
+                <h2>Formulário de Feedback</h2>
+                <form>
+                    <fieldset>
+                    <legend>Informações</legend>
+                    <label for = "nomefeedback">Nome:</label>
+                    <input type = "texto" id = "nomefeedback" name = "nomefeedback"
+                    placeholder = "Digite seu nome"><br><br>
+
+                    <label for = "emailfeedback">Email:</label>
+                    <input type = "email" id = "emailfeedback" name = "emailfeedback"
+                    placeholder = "Digite seu email"><br><br>
+
+                    <label for = "comentáriofeedback">Comentário:</label><br>
+                    <textarea id = "comentáriofeedback" name = "comentáriofeedback"
+                    cols = 30 rows = 3
+                    placeholder = "Digite seu comentário"></textarea> <br><br>
+                    <button onclick="alert('Feedback enviado!')">"Envie seu feedback"</button>
+                    </fieldset> 
+                    
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 Desenvolvimento InterWebs. Todos os direitos reservados.</p>
+            <p>para ganhar 1.000 milhão de reais <a href=https://www.google.com/search?q=1+milh%C3%A3o&sca_esv=9db4d21e14f09c73&sxsrf=ANbL-n5wADkdCBprrG9gOvfoGHS9qTdfnw%3A1768584576744&ei=gHVqacKULZHb5OUPx_-wgA8&ved=0ahUKEwjC1M77ypCSAxWRLbkGHcc_DPAQ4dUDCBE&uact=5&oq=1+milh%C3%A3o&gs_lp=Egxnd3Mtd2l6LXNlcnAiCTEgbWlsaMOjbzIKEAAYgAQYQxiKBTINEAAYgAQYsQMYQxiKBTIIEAAYgAQYsQMyChAAGIAEGEMYigUyChAAGIAEGEMYigUyBRAAGIAEMgoQABiABBhDGIoFMgUQABiABDIFEAAYgAQyBRAAGIAESKsRUABY3g5wAXgBkAEAmAH3AaABwQqqAQUwLjcuMbgBA8gBAPgBAZgCCaACkguoAhTCAgcQIxgnGOoCwgINECMYgAQYJxiKBRjqAsICDRAuGIAEGCcYigUY6gLCAg8QIxiABBgTGCcYigUY6gLCAhMQIxjwBRiABBgnGMkCGIoFGOoCwgIQEAAYAxi0AhjqAhiPAdgBAcICBBAjGCfCAgoQIxiABBgnGIoFwgIOEAAYgAQYsQMYgwEYigWYAwnxBZgrPMcb93_9ugYGCAEQARgKkgcFMS43LjGgB8gwsgcFMC43LjG4B4gLwgcFMi00LjXIB0GACAA&sclient=gws-wiz-serp target = "_blank">clique aqui</a> </p>
+        </footer>
+        
+    </body>  
+
+</html>
